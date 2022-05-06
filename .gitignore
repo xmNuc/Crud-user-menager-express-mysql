@@ -1,0 +1,5 @@
+/node_modules
+remotedb_pass.txt
+.env
+.env_org
+package-lock.json

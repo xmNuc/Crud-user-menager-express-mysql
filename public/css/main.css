@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: #134900;
+  background: linear-gradient(327deg, #134900 0%, #03526e 100%);
+}
+
+.navbar {
+  background: #092400;
+  background: linear-gradient(327deg, #092400 0%, #001c25 100%);
+  border-bottom: 1px solid white;
+}
+
+.breadcrumb {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+table {
+  color: white;
+}
+
+tr {
+  color: white;
+}
+
+.form-floating,
+.form-control {
+  color: black;
+}
+
+.btn-grad {
+  background-image: -webkit-gradient(linear, left top, right top, from(#093028), color-stop(51%, #237a57), to(#093028));
+  background-image: linear-gradient(to right, #093028 0%, #237a57 51%, #093028 100%);
+}
+
+.btn-grad {
+  margin: 0px;
+  padding: 8px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  -webkit-box-shadow: 0 0 10px #eee;
+          box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad-sm {
+  background-image: -webkit-gradient(linear, left top, right top, from(#093028), color-stop(51%, #237a57), to(#093028));
+  background-image: linear-gradient(to right, #093028 0%, #237a57 51%, #093028 100%);
+}
+
+.btn-grad-sm {
+  margin: 0px;
+  padding: 8px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  -webkit-box-shadow: 0 0 8px #eee;
+          box-shadow: 0 0 8px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad-sm:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
